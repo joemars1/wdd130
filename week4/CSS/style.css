@@ -1,0 +1,46 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+   
+    margin: 0 auto;
+    border: 1px solid #bbbbbb; 
+    padding: 30px 75px;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    justify-content: centers;
+}
+
+footer {
+    background-color: #e6e7a8;
+    display: inline-block;
+    padding: 30px 75px;
+    align-items: center;
+    justify-content: centers;
+
+
+
+}
+
+main {
+    margin: 1rem auto;
+    background-color: #bed;
+    padding: 1rem;
+}
+
+h3 {
+    color: rgb(20, 168, 14);
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+/* Class Selectors */
+.page {
+    width: 960px;
+    margin: 0 auto;
+}
