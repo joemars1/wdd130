@@ -13,19 +13,33 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
-    justify-content: centers;
+    justify-content: center;
 }
 
 footer {
+    margin: 0;
     background-color: #e6e7a8;
     display: inline-block;
     padding: 30px 75px;
     align-items: center;
-    justify-content: centers;
+    justify-content: center;
 
 
 
 }
+.nav {
+    background-color: #eeeeee; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
 
 main {
     margin: 1rem auto;
