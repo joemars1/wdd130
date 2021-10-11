@@ -17,15 +17,15 @@ header {
 }
 
 footer {
-    margin: 0;
-    background-color: #e6e7a8;
-    display: inline-block;
+    
+    margin: 0 ;
+    border: 1px solid #bbbbbb; 
     padding: 30px 75px;
+    background-color: #eeeeee;
+    display: inline-block;
+    grid-template-columns: 1s00px 1fr;
     align-items: center;
     justify-content: center;
-
-
-
 }
 .nav {
     background-color: #eeeeee; 
@@ -40,6 +40,7 @@ footer {
     font-size: 20px;
     padding: 20px;
   }
+
 
 main {
     margin: 1rem auto;
