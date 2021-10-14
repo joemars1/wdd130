@@ -24,7 +24,7 @@ footer {
     background-color: #eeeeee;
     display: inline-block;
     grid-template-columns: 100px 1fr;
-    align-items: center;
+    align-items: lefts;
     justify-content: center;
 }
 .nav {
