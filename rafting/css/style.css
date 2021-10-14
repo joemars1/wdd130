@@ -10,23 +10,26 @@ header {
     border: 1px solid #bbbbbb; 
     padding: 30px 75px;
     background-color: #eeeeee;
-    display: grid;
+    display:grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
     justify-content: center;
 }
 
-footer {
+.footer {
     
     margin: 0 ;
     border: 1px solid #bbbbbb; 
     padding: 30px 75px;
     background-color: #eeeeee;
-    display: inline-block;
+    display: flex;
     grid-template-columns: 100px 1fr;
     align-items: lefts;
     justify-content: center;
 }
+
+
+
 .nav {
     background-color: #eeeeee; 
     list-style-type: none;
@@ -39,6 +42,7 @@ footer {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
+    
   }
 
 
