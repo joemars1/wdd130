@@ -1,16 +1,15 @@
 body {
-    font-size: 16px;
+    font-size: 1.2em;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
-   
     margin: 0 auto;
-    border: 1px solid #bbbbbb; 
+    border: 1px solid white; 
     padding: 30px 75px;
-    background-color: #eeeeee;
-    display:grid;
+    display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
     justify-content: center;
@@ -19,19 +18,33 @@ header {
 .footer {
     
     margin: 0 ;
-    border: 1px solid #bbbbbb; 
+    border: 1px solid #bed; 
     padding: 30px 75px;
-    background-color: #eeeeee;
+    background-color: #bed;
     display: flex;
     grid-template-columns: 100px 1fr;
-    align-items: lefts;
+    align-items:flex-end;
     justify-content: center;
 }
 
+.body-images {
+    width: 900px;
+    height:auto;
+    border: 2px ridge;
+    padding: 10px;
+}
 
+.body-images:hover {
+    border: 5px solid rebeccapurple;
+}
+
+.text {
+    line-height: normal;
+    list-style: none;
+}
 
 .nav {
-    background-color: #eeeeee; 
+    background-color: white; 
     list-style-type: none;
     text-align: center;
     margin: 0;
@@ -44,20 +57,36 @@ header {
     padding: 20px;
     
   }
+.nav li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    
+   
+}
+.nav li a:hover {
+    background-color: rgb(201, 193, 152);
 
+}
 
 main {
     margin: 1rem auto;
-    background-color: #bed;
+    background-color: rgb(244, 252, 249);
     padding: 1rem;
 }
 
 h3 {
-    color: rgb(20, 168, 14);
-    font-size: 2.0rem;
+    color: rgb(23, 34, 23);
+    font-size: 2.5rem;
     text-align: center;
+    font-family: Georgia, serif;
 }
 
+.social {
+    display: inline-block;
+    padding: 20px;
+    margin: 1px;
+}
 /* Class Selectors */
 .page {
     width: 960px;
