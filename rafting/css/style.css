@@ -32,6 +32,7 @@ header {
     height:auto;
     border: 2px ridge;
     padding: 10px;
+    box-shadow: 5px 3px 3px rebeccapurple;
 }
 
 .body-images:hover {
