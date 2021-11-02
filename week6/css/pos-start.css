@@ -247,6 +247,7 @@
   width: 100px;
   height: 100px;
   background-color: blue;
+  flex: center;
   grid-row-start: 1 / 3;
   
 
