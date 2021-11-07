@@ -1,3 +1,10 @@
+*.{
+    box-sizing: content-box;
+    max-width: 100px;
+    width: 0;
+    padding: 10px;
+}
+
 header {
     margin: 0;
     padding: 0;
@@ -5,6 +12,21 @@ header {
     align-items: center;
     justify-items: right;
     box-sizing: content-box;
+}
+
+.plan{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+
+}
+
+.image{
+    width: 500px;
+    height: 400px;
+}
+.para {
+    padding: 20px;
 }
 
 .page {
@@ -19,7 +41,7 @@ body {
     font-size: 1.2em;
     display: grid;
     margin: 0;
-    padding: 0;
+    padding: 10;
     font-family: 'Roboto', sans-serif;
     box-sizing: content-box;
     width: 100%;
