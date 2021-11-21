@@ -279,6 +279,10 @@ h3 {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+
+  input[type=reset]:hover {
+    background-color: #45a049;
+  }
   
   .container {
     border-radius: 5px;
