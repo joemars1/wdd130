@@ -1,6 +1,11 @@
 body {
     background-color: #eaeff1;
     font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+    
   }
   
   img {
@@ -8,6 +13,7 @@ body {
     border-radius: 12px;
     height: 214px;
     object-fit: cover;
+    box-shadow: 1px -10px rgb(245, 252, 252);
   }
   
   #container {
@@ -16,6 +22,7 @@ body {
     margin: 0 auto;
   
     margin-top: 20vh;
+    box-shadow: 1px -1px rgb(242, 243, 243)
   }
 
   
@@ -23,11 +30,13 @@ body {
     background-color: white;
   
     border: 1px solid #bacdd8;
+    width: 300px;
   
     padding: 8px;
   
     border-radius: 12px;
-  }
+    box-shadow: 1px -1px rgb(226, 233, 233);
+ }
   
   .tag {
     padding: 4px 8px;
