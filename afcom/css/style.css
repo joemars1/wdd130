@@ -13,7 +13,7 @@ button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #071318;
+    color: #dde6eb;
     text-decoration: none;
 
 }
@@ -39,8 +39,16 @@ header {
 
 .image1{
     width: 100%;
+    border-radius: 80%;
+    margin: 0px;
+    padding: 10rem;
+}
+
+.image2{
+    width: 150px;
     border-radius: 70%;
     margin: 0;
+    padding: 10px;
 }
 
 .para {
@@ -146,13 +154,13 @@ body {
     margin: 0;
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
-    color: rgb(100, 100, 100);
+    color: rgb(112, 38, 38);
 }
 
 h1 {
     margin: 0 0 20px;
     font-weight: 400;
-    color: #0e91e2;
+    color: #eff5f8;
 }
 
 p {
@@ -165,14 +173,14 @@ p {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #6394b3;
+    background: #d1734e;
 }
 
 form {
     padding: 25px;
     margin: 25px;
     box-shadow: 0 2px 5px #0a0606;
-    background: #eee6e6;
+    background: #d1734e;
 }
 
 
@@ -182,19 +190,19 @@ textarea {
     width: calc(100% - 18px);
     padding: 8px;
     margin-bottom: 20px;
-    border: 1px solid #1c87c9;
+    border: 1px solid #f3f5f7;
     outline: none;
 }
 
 input::placeholder {
-    color: #666;
+    color: rgb(233, 187, 187);
 }
 
 button {
     width: 100%;
     padding: 10px;
     border: none;
-    background: #1c87c9;
+    background: #fdecd3;
     font-size: 16px;
     font-weight: 400;
     color: rgb(54, 30, 30);
